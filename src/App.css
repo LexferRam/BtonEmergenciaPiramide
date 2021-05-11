@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +13,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.colorIcons{
+  color: brown;
+}
+.MuiInputBase-input {
+  font-size: x-small;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +41,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#btnWsp:hover{
+  background: #005f00 !important;
+}
+
+#celular>input{
+  width: 70px !important;
+}
+
+#telfHab>input{
+  width: 50px !important;
+}
+.MuiMenuItem-root{
+  overflow: auto !important;
+}
+
+.MuiSwitch-root{
+  overflow: visible !important;
 }

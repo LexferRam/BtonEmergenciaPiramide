@@ -1,0 +1,24 @@
+import Logo from './logoocea.png'
+
+const URL = "https://emergencia24horas.oceanicadeseguros.com/node/express/servicios/api"
+
+ const response = await axios.post(`${REACT_APP_URL}/asistDomiciliaria`, {
+        "ctipoid": tipoid,
+        "cnumid": nroCI,
+        "cdvid": "0"
+      })
+
+*OCEANICA DE SEGUROS*
+
+ buttonInstalar: {
+    margin: theme.spacing(1),
+    marginTop: '20px',
+    color: '#1ba8d0 !important',
+    border: '1px solid #1ba8d0 !important',
+    fontSize: '11px'
+  },
+
+  ************************************************************
+  para pruebas en desarrollo usar:
+  http://10.128.49.125:5000/api
+
